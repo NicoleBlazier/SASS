@@ -1,0 +1,33 @@
+selector {
+  font-family: Arial; }
+
+h1, h2 {
+  color: darkgreen; }
+
+section {
+  border-bottom: 1pz solid green; }
+
+.flexbehaviour {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 250px; }
+
+P {
+  font-family: Arial; }
+
+h1 {
+  font-family: Arial; }
+
+h2 {
+  font-family: Arial; }
+
+li {
+  font-family: Arial; }
+
+.first a {
+  text-decoration: none; }
+
+.first p a {
+  color: green; }
+
+

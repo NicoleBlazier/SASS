@@ -1,0 +1,59 @@
+//Write SASS code to make h1 and h2 tags of the main_color
+$main_color: darkgreen;
+$highlight_color: green;
+$my_font: Arial;
+
+h1, h2 {
+    color: $main_color;
+}
+
+section {
+    border-bottom: 1pz solid $highlight_color;
+}
+
+.flexbehaviour {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 250px;
+}
+
+P, h1, h2, li {
+    font-family: $my_font;
+}
+
+//Write SASS code to define all links within the <section> with class first to not be underlined
+.first {
+    a {
+    text-decoration: none;
+    }
+p {
+    a{
+        color: $highlight_color;
+    }
+}
+}
+
+//Write SASS code to define all links within the <section> with class first and within paragraphs to be of the highlight_color
+
+//Write SASS code to make all the paragraph within the <section> with class first to have a background-color #e0e0e0
+
+$fontsize: 1em;
+  
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+        -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+}
+     
+
+    
+    
+  
+
+
+
+
+
+
+
